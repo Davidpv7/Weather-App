@@ -11,6 +11,9 @@ module.exports = {
   },
   devServer: {
     static: "./dist",
+    hot: true,
+    liveReload: true,
+    watchFiles: ["./src/**/*"],
   },
   plugins: [
     new HtmlWebpackPlugin({

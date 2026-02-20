@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#input-bar {
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 220px;
+  font-size: 14px;
+}
+
+#button-city {
+  padding: 10px 16px;
+  margin-left: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4a6cf7;
+  color: white;
+  cursor: pointer;
+}
+
+#button-city:hover {
+  background-color: #364fc7;
+}
+
+#card {
+  width: 300px;
+  min-height: 250px;
+  padding: 25px 20px;
+  border-radius: 16px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; 
+}
+
+.cityDisplay {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.tempDisplay {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.descriptionDisplay {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+
+.humidityDisplay {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+
+.errorDisplay {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #444;
+}
+
+
+.giftDisplay {
+  width: 100px;
+  height: 100px;
+  
+  margin-top: 10px;
+  border-radius: 12px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
